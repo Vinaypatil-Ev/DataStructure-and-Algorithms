@@ -1,8 +1,8 @@
 # DataStructure
 start: 20 aug 2020
-
-
-<img align="center" src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/data_strucuture1.png">
+<p align="center">
+<img src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/data_strucuture1.png" alt="Data Structure">
+</p>
 
 
 ----------------------------------------------------------------------------------
