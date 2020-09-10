@@ -7,7 +7,13 @@ start: 20 aug 2020
 
 ----------------------------------------------------------------------------------
 
-This repository contains datastructure impl. in all languages</br>
-run: gcc fileName.c -o fileName && fileName </br>
-in terminal</br>
-ex:gcc array.c -o array && array</br>
+> **Note**: This repository contains datastructure impl. in all languages</br>
+
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
