@@ -9,11 +9,3 @@ start: 20 aug 2020
 
 > **Note**: This repository contains datastructure impl. in all languages</br>
 
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
