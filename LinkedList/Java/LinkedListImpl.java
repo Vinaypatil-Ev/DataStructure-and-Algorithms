@@ -87,7 +87,7 @@ public class LinkedListImpl{
         ls.shift();
         ls.printList();
         System.out.println("\n string list");
-        LinkedList ls2 = new LinkedList(null);
+        LinkedList<Integer> ls2 = new LinkedList<Integer>(null);
         ls2.add("a");
         ls2.add("z");
         ls2.printList();

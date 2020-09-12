@@ -64,7 +64,7 @@ class DoubleLinkedList<T>{
             throw new NullPointerException("Empty list");
         }
         while(temp != null){
-            System.out.println("Node" + i + " |" + temp.previous + "|" + (T)temp.data + "|" + temp.next);
+            System.out.println("Node" + i + " |" + temp.previous + "|" + (T) temp.data + "|" + temp.next);
             temp = temp.next;
             i++;
         }
