@@ -59,6 +59,7 @@ class LinkedList<T> {
         int i = 0;
         if (temp == null){
             System.out.println("Empty list");
+            throw new NullPointerException("List is Empty");
         }
         while(temp != null){
             // System.out.println(temp.value);
