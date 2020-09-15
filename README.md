@@ -5,9 +5,17 @@
 
 ----------------------------------------------------------------------------------
 ## Introdcution
-This repository contains datastructure implemente in all languages</br>
+This repository contains data Structure implemented in languages(C,C++ java)</br>
 
 ## Description
+#### [1. Array](https://github.com/Vinaypatil-Ev/vinEv_DataStructure/tree/master/Array#array)
+#### [2. HashMap]
+#### [3. Linked List]
+#### [4. Queue]
+#### [5. Stack]
+#### [6. Tree]
+#### [7. Graphs]
+
 
 
 ------------------------------------------------------------------------------------
