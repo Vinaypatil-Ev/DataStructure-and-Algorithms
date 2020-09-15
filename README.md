@@ -19,4 +19,6 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 
 ------------------------------------------------------------------------------------
+
+## LICENSE
 > [MIT License](LICENSE)</br>[Copyright (c) 2020 Vinaypatil-Ev](LICENSE)</br>: 20 aug 2020
