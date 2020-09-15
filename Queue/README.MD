@@ -1,5 +1,5 @@
 # Queue
 
 <p align="Center">
-<img src="Documents/img/queue.png" alt="Queue">
+<img src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/queue.p" alt="Queue">
 </p>
