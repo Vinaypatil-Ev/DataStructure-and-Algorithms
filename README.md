@@ -3,12 +3,12 @@
 <img src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/data_strucuture1.png" alt="Data Structure">
 </p>
 
-
 ----------------------------------------------------------------------------------
+## Introdcution
+This repository contains datastructure implemente in all languages</br>
 
-> **Note**: This repository contains datastructure impl. in all languages</br>
+## Description
+
 
 ------------------------------------------------------------------------------------
-> MIT License
-Copyright (c) 2020 Vinaypatil-Ev
-start: 20 aug 2020
+> MIT License</br>Copyright (c) 2020 Vinaypatil-Ev</br>: 20 aug 2020
