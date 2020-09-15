@@ -8,13 +8,13 @@
 This repository contains data Structure implemented in languages(C,C++ java)</br>
 
 ## Description
-#### [1. Array](https://github.com/Vinaypatil-Ev/vinEv_DataStructure/tree/master/Array#array)
+#### [1. Array](Array)
 #### [2. HashMap](HashMap)
-#### [3. Linked List]
-#### [4. Queue]
-#### [5. Stack]
-#### [6. Tree]
-#### [7. Graphs]
+#### [3. Linked List](LinkedList)
+#### [4. Queue](Queue)
+#### [5. Stack](Stack)
+#### [6. Tree](Tree)
+#### [7. Graphs](Graphs)
 
 
 
