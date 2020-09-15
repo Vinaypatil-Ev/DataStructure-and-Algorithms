@@ -8,5 +8,5 @@
 ## 2. Doubly LinkedList
 
 <p align="center">
-<img src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/doublylinkedlist.png.png" alt="LinkedList">
+<img src="https://github.com/Vinaypatil-Ev/vinEv_DataStructure/blob/master/Documents/img/doublylinkedlist.png" alt="LinkedList">
 </p>
