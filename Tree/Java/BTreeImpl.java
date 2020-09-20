@@ -6,8 +6,6 @@ class Node{
         this.value = value;
         this.leftNode = leftNode;
         this.rightNode = rightNode;
-    }
-    
 }
 
 class BTree{
@@ -39,6 +37,7 @@ class BTree{
         Node newNode = new Node(value, null, null);
         addNode(root, newNode);
     }
+}
 }
 
 public class BTreeImpl {
