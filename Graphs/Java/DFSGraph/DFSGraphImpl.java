@@ -66,6 +66,7 @@ class DFSGraph{
                     st.push(temp.value);
                     visited[temp.value] = true;
                     isDone = false;
+                    break;
                 }else{
                     temp = temp.next;
                 }

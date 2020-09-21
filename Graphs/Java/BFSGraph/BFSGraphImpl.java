@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 class Node {
@@ -18,10 +20,10 @@ class adjList{
 
 }
 
-class DFSGraph{
+class BFSGraph{
     int size;
     adjList[] List;
-    public DFSGraph(int size){
+    public BFSGraph(int size){
         this.size = size;
         this.List = new adjList[this.size];
         for (int i = 0; i < List.length; i++) {
@@ -47,42 +49,35 @@ class DFSGraph{
         }
     }
 
-    public void DFSExplore(int startVertex){
+    public void BFSExplore(int startVertex){
         // Node temp = List
         Boolean[] visited = new Boolean[size];
         for (int i = 0; i < visited.length; i++) {
             visited[i] = false;
         }
-        Stack<Integer> st = new Stack<Integer>();
-        st.push(startVertex);
-        while(!st.isEmpty()){
-            int n = st.pop();
-            st.push(n);
+        Queue<Integer> q = new LinkedList<Integer>();
+        q.add(startVertex);
+        while(!q.isEmpty()){
+            int n = q.poll();
+            System.out.println("Visited Node: " + n);
             visited[n] = true;
             Node temp = List[n].head;
-            Boolean isDone = true;
             while(temp!=null){
                 if(visited[temp.value]==false){
-                    st.push(temp.value);
+                    q.add(temp.value);
                     visited[temp.value] = true;
-                    isDone = false;
                 }else{
                     temp = temp.next;
                 }
-            }
-
-            if(isDone==true){
-                int out = st.pop();
-                System.out.println("Visited Node: " + out);
             }
         }
     }
 }
 
 
-class DFSGraphImpl{
+class BFSGraphImpl{
     public static void main(String[] args){
-        DFSGraph dfsg = new DFSGraph(6);
+        BFSGraph dfsg = new BFSGraph(6);
         dfsg.add(0, 2);
         dfsg.add(0, 1);
         dfsg.add(1, 3);
@@ -97,7 +92,7 @@ class DFSGraphImpl{
         dfsg.printAdjList();
         System.out.println("");
         System.out.println("DFS Graph Explore : ");
-        dfsg.DFSExplore(0);
+        dfsg.BFSExplore(0);
 
     }
 }
