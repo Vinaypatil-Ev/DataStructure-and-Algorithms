@@ -55,3 +55,6 @@ dkms.conf
 *.class
 */**/*.clss
 */*.class
+
+# kolin
+*.jar
