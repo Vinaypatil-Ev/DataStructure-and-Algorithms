@@ -33,6 +33,14 @@ public class Array1D {
             System.out.println(doubleArr[i]);
         }
 
+        // String Array
+
+        String[] stringArr = {"jaya", "leya", "seya"};
+
+        for (int i = 0; i < stringArr.length; i++) {
+            System.out.println(stringArr[i]);
+        }
+
         
     }
     
