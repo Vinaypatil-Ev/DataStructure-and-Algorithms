@@ -58,3 +58,6 @@ dkms.conf
 
 # kolin
 *.jar
+
+# vscode
+*.vscode
