@@ -7,7 +7,7 @@ struct Node
         int value;
         struct Node* next;
         
-    };
+};
 
 void add(int value){
     struct Node newNode = {value, NULL};
@@ -34,9 +34,7 @@ void printLinkedList(){
     }
 }
 
-
 int main(){
-
     add(10);
     add(90);
     add(34);
