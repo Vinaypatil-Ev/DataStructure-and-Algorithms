@@ -89,6 +89,5 @@ int main(){
     q.enqueue(40);
     q.enqueue(90);
     q.printQueue();
-    getwchar();
-    
+    getwchar(); 
 }
