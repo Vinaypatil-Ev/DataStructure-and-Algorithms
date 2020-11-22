@@ -14,11 +14,11 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 |----------------------|--|
 |[1. Array](Array)|*|
 |[2. HashMap](HashMap)|*|
-|#### [3. Linked List](LinkedList)|*|
-|#### [4. Queue](Queue)|*|
-|#### [5. Stack](Stack)|*|
-|#### [6. Tree](Tree)|*|
-|#### [7. Graphs](Graphs)|*|
+|[3. Linked List](LinkedList)|*|
+|[4. Queue](Queue)|*|
+|[5. Stack](Stack)|*|
+|[6. Tree](Tree)|*|
+|[7. Graphs](Graphs)|*|
 
 
 
