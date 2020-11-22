@@ -34,7 +34,7 @@ class Queue<T>{
         }
         T item = (T) QueueArray[front];
         QueueArray[front] = null;
-        front = front +1;
+        rear = rear - 1;
         return item;
     }
     public void printQueue(){
@@ -75,6 +75,12 @@ public class QueueImpl {
         System.out.println("After deque");
         queue.dequeue();
         queue.printQueue();
+        System.out.println("After enqueue");
+        queue.insert(53);
+        queue.insert(33);
+        queue.insert(30);
+        queue.insert(9);
+        queue.insert(93);
 
     }
 }
