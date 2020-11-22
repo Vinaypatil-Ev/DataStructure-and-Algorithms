@@ -12,7 +12,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 |Data Structure|C|
 |----------------------|----|
-|[1. Array](Array)|*|
+|[1. Array](Array)|*(Array/C/array.c)|
 |[2. HashMap](HashMap)|*|
 |[3. Linked List](LinkedList)|*|
 |[4. Queue](Queue)|*|
