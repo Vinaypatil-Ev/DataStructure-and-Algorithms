@@ -11,7 +11,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 
 |Data Structure|C|C++|java|
-|----------------------|--|--|--|
+|----------------------|--|:--:|--|
 |[1. Array](Array)|[*](Array/C/array.c)|[*](Array/C++/Array.cpp)|[*](Array/Java/Array1D.java)|
 |[2. HashMap](HashMap)|[*](HashMap/C/HashMap.c)|[*](HashMap/C++/HashMap.cpp)|[*](HashMap/Java/HashMapImpl.java)|
 |[3. Linked List](LinkedList)|[*](LinkedList/C/LinkedList.c)|[*](LinkedList/C++/LinkedList.cpp)|[*](LinkedList/Java/LinkedListImpl.java)|
