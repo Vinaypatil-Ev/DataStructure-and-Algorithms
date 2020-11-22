@@ -56,14 +56,12 @@ class Queue{
     }
 
     void printQueue(){
-        cout << "isEmpty: " <<
-        
-         !isEmpty() << endl;
         if(!isEmpty()){
-            for (int i = 0; i >= size; i++)
+            for (int i = rear; i >= front; i--)
             {
                 cout << "|" << QueueArray[i] << "|";
             }
+            cout << endl;
         }else{
             cout << "Queue is Empty" << endl;
         }
