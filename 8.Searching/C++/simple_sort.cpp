@@ -9,7 +9,7 @@ int main() {
     cin >> n;
     // declare the array
     int arr[n]; 
-    // create random int arr of length n
+    // insert rand int in array
     for (int i=0; i<n; i++) {
         arr[i] = rand();
     }
