@@ -17,7 +17,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 |[3. Linked List](3.LinkedList)|[:arrow_upper_right:](3.LinkedList/C/LinkedList.c)|[:arrow_upper_right:](3.LinkedList/C++/LinkedList.cpp)|[:arrow_upper_right:](3.LinkedList/Java/LinkedListImpl.java)|
 |[4. Queue](4.Queue)|[:arrow_upper_right:](4.Queue/C/Queue.c)|[:arrow_upper_right:](4.Queue/C++/Queue.cpp)|[:arrow_upper_right:](4.Queue/Java/QueueImpl.java)|
 |[5. Stack](5.Stack)|[:arrow_upper_right:](5.Stack/C/Stack.c)|[:arrow_upper_right:](5.Stack/C++/Stack.cpp)|[:arrow_upper_right:](5.Stack/Java/StackImpl.java)|
-|[6. Tree](6.Tree)|[:arrow_upper_right:](6.Tree)|[:arrow_upper_right:](6.Tree)|[:arrow_upper_right:](6.Tree/Java/BTreeImpl.java)|
+|[6. Tree](6.Tree)|[:watch:](6.Tree)|[:watch:](6.Tree)|[:arrow_upper_right:](6.Tree/Java/BTreeImpl.java)|
 |[7. Graphs](7.Graphs)|[:arrow_upper_right:](7.Graphs/C/Graph.c)|[:arrow_upper_right:](7.Graphs/C++/Graph.cpp)|[:arrow_upper_right:](7.Graphs/Java/BFSGraph/BFSGraphImpl.java)|
 
 ---
