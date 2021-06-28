@@ -22,9 +22,9 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 ---
 
-|Sorting|C|C++|Java|Golnag|
+|Sorting|C++|Java|Golnag|
 |------------------------|--|--|--|
-|Simple Sort|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|
+|Simple Sort|[*](1.Array/C/array.c)|[*](1.Array/C++/Array.cpp)|[*](1.Array/Java/Array1D.java)|
 
 
 ---
