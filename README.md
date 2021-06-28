@@ -24,7 +24,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 |Sorting|C++|Java|Golnag|
 |------------------------|--|--|--|
-|Simple Sort|[*](1.Array/C/array.c)|[*](1.Array/C++/Array.cpp)|[*](1.Array/Java/Array1D.java)|
+|Simple Sort|[:arrow_upper_right:](1.Array/C/array.c)|[:arrow_upper_right:](1.Array/C++/Array.cpp)|[:arrow_upper_right:](1.Array/Java/Array1D.java)|
 
 
 ---
