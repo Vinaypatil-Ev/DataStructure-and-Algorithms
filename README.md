@@ -22,7 +22,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 ---
 
-|Sorting|C|C++|Java|Golnag|
+|Sorting|C|C++|Java|Golanag|
 |------------------------|--|--|--|--|
 |Simple Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/1_simple_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/1_simple_sort.go)|
 |Bubble Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/2_bubble_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/2_bubble_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/2_bubble_sort.go)|
