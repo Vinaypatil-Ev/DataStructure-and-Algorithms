@@ -26,9 +26,9 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 |------------------------|--|--|--|--|
 |Simple Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/1_simple_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/1_simple_sort.go)|
 |Bubble Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/2_bubble_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/2_bubble_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/2_bubble_sort.go)|
-|Selection Sort|[:watch:]()|[:arrow_upper_right](8.Sorting/C++/3_selection_sort.cpp)|[:arrow_upper_right](8.Sorting/Java/3_selection_sort.java)|[:arrow_upper_right](8.Sorting/GoLang/3_selection_sort.go)|
-|Merge Sort|[:watch:]()|[:arrow_upper_right](8.Sorting/C++/4_merge_sort.cpp)|[:arrow_upper_right](8.Sorting/Java/4_merge_sort.java)|[:arrow_upper_right](8.Sorting/GoLang/4_merge_sort.go)|
-|Insertion Sort|[:watch:]()|[:arrow_upper_right](8.Sorting/C++/5_insertion_sort.cpp)|[:arrow_upper_right](8.Sorting/Java/5_insertion_sort.java)|[:arrow_upper_right](8.Sorting/GoLang/5_insertion_sort.go)|
+|Selection Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/3_selection_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/3_selection_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/3_selection_sort.go)|
+|Merge Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/4_merge_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/4_merge_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/4_merge_sort.go)|
+|Insertion Sort|[:watch:]()|[:arrow_upper_right:](8.Sorting/C++/5_insertion_sort.cpp)|[:arrow_upper_right:](8.Sorting/Java/5_insertion_sort.java)|[:arrow_upper_right:](8.Sorting/GoLang/5_insertion_sort.go)|
 
 
 ---
