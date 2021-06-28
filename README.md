@@ -20,9 +20,15 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 |[6. Tree](6.Tree)|[*](6.Tree)|[*](6.Tree)|[*](6.Tree/Java/BTreeImpl.java)|
 |[7. Graphs](7.Graphs)|[*](7.Graphs/C/Graph.c)|[*](7.Graphs/C++/Graph.cpp)|[*](7.Graphs/Java/BFSGraph/BFSGraphImpl.java)|
 
+---
+
+|Sorting|C|C++|Java|Golnag|
+|------------------------|--|--|--|
+Simple Sort|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|[:arrow_upper_right:](8.Sorting/C++/1_simple_sort.cpp)|
 
 
-------------------------------------------------------------------------------------
+---
+
 
 ## LICENSE
 > [MIT License](LICENSE)</br>[Copyright (c) 2020 Vinaypatil-Ev](LICENSE)</br>: 20 aug 2020
