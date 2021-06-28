@@ -12,7 +12,7 @@ This repository contains data Structure implemented in languages(C,C++ java)</br
 
 |Data Structure|C|C++|java|
 |----------------------|--|:--:|:--:|
-|[1. Array](1.Array)|[:arrow_upper_right:](1.Array/C/array.c)|[:arrow_upper_right:](1.Array/C++/Array.cpp)|[:arrow_upper_right:](1.Array/Java/Array.java)|
+|[1. Array](1.Array)|[:arrow_upper_right:](1.Array/C/Array.c)|[:arrow_upper_right:](1.Array/C++/Array.cpp)|[:arrow_upper_right:](1.Array/Java/Array.java)|
 |[2. HashMap](2.HashMap)|[:arrow_upper_right:](2.HashMap/C/HashMap.c)|[:arrow_upper_right:](2.HashMap/C++/HashMap.cpp)|[:arrow_upper_right:](2.HashMap/Java/HashMapImpl.java)|
 |[3. Linked List](3.LinkedList)|[:arrow_upper_right:](3.LinkedList/C/LinkedList.c)|[:arrow_upper_right:](3.LinkedList/C++/LinkedList.cpp)|[:arrow_upper_right:](3.LinkedList/Java/LinkedListImpl.java)|
 |[4. Queue](4.Queue)|[:arrow_upper_right:](4.Queue/C/Queue.c)|[:arrow_upper_right:](4.Queue/C++/Queue.cpp)|[:arrow_upper_right:](4.Queue/Java/QueueImpl.java)|
