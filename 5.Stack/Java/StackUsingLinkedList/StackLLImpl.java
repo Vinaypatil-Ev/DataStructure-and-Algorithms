@@ -14,7 +14,6 @@ class StackLL<T>{
     public StackLL(){
         this.top = null;
     }
-
     public void push(Object value){
         Node newNode = new Node(value, null);
         if(top == null){
