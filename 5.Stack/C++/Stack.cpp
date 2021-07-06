@@ -32,7 +32,7 @@ class stack {
             top = top + 1;
             arr[top] = value;
         } else {
-            printf("Cannot insert %d, array is full\n", value);
+            printf("Cannot insert %d, stack is full\n", value);
         } 
     }
 
@@ -41,15 +41,20 @@ class stack {
             int x = arr[top];
             top = top - 1;
             return x;
-        } else {
-            printf("pop failed");
         }
+        printf("pop failed");
+        return 0;
     }
 
     void showStack() {
         if (!isEmpty()) {
-            for (int i=top; i>=0; i--) {
-                printf("|%d|\n", arr[i]);
+            for (int i=size; i>=0; i--) {
+                if (i<=top) {
+                  printf("|%d|\n", arr[i]);
+                }else {
+                    printf("|  |\n");
+                }
+                
             }
         } else {
             printf("array is Empty");
@@ -65,6 +70,7 @@ int main() {
     s.pop();
     s.push(18);
     s.push(23);
+    s.push(98);
     s.push(400);
     s.pop();
     s.push(90);
