@@ -46,17 +46,3 @@ This repository contains data Structure implemented in languages(C,C++ java)`</b
 
 > [MIT License](LICENSE) `</br>`[Copyright (c) 2020 Vinaypatil-Ev](LICENSE) `</br>`: 20 aug 2020
 
-<table>
-  <tbody>
-    <tr>
-      <th>Tables</th>
-      <th align="center">Are</th>
-      <th align="right">Cool</th>
-    </tr>
-    <tr>
-      <td>col 3 is</td>
-      <td align="center">right-aligned</td>
-      <td align="right">$1600</td>
-    </tr>
-  </tbody>
-</table>
