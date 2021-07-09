@@ -1,30 +1,23 @@
 #include <iostream>
-#include <climits>
 
 using namespace std;
 
-class Heap {
+class MinHeap {
     private:
     int *arr;
     int maxsize;
     int size;
     public:
-    Heap(int size) {
-        this->maxsize = size;
-        this->size = 0;
+    MinHeap(int cap) {
+        this->maxsize = cap;
         this->arr = new int[this->maxsize];
-    }
-
-    void swap(int *x, int *y) {
-        int temp = *x;
-        *x = *y;
-        *y = temp;
+        this->size = 0;
     }
 
     int parent(int i) {
         return (i - 1) / 2;
     }
-    
+
     int left(int i) {
         return i*2 + 1;
     }
@@ -33,80 +26,44 @@ class Heap {
         return i*2 + 2;
     }
 
-    void heapify(int i) {
-        int l = left(i);
-        int r = right(i);
-        int smallest = i;
-        if (l<size && arr[l] < arr[r]) {
-            smallest = l;
-        }
-        if (r<size && arr[r] < arr[smallest]) {
-            smallest = r;
-        }
-        if (smallest != i) {
-            swap(&arr[i], &arr[smallest]);
-            heapify(smallest);
-        }
+    void swap(int *x, int *y) {
+        int temp = *x;
+        *x = *y;
+        *y = temp;
     }
 
-    void insertKey(int key) {
+    void insert(int key) {
         if (size == maxsize) {
-            printf("heap overflow, insertion failed {%d}\n", key);
+            printf("Heap overflow, insertion failed {%d}", key);
             return;
         }
-        //first insert new element at end
+        //insertion in heap
         size++;
         int i = size - 1;
         arr[i] = key;
-
-        //fix mean heap property if it is violetd
-
-        while (i != 0 && arr[parent(i)] > arr[i]) {
+        //balace the heap
+        while (i != 0 && arr[i] < arr[parent(i)]) {
             swap(&arr[i], &arr[parent(i)]);
             i = parent(i);
         }
     }
 
-    void deleteKey(int no);
+    void 
 
-    void showArr() {
-        for (int i=0; i < maxsize; i++) {
+    void showHeap() {
+        for (int i=0; i<maxsize; i++) {
             cout << arr[i] << " ";
         }
         cout << endl;
     }
-
-    int extractMin() {
-        if (size <= 0) {
-            return INT_MAX;
-        }
-        if (size == 1) {
-            size--;
-            return arr[0];
-        }
-        // store minimum value and store it from heap
-        int root = arr[0];
-        arr[0] = arr[size - 1];
-        size--;
-        heapify(0);
-        return root;
-
-    }
 };
 
 int main() {
-    Heap x(8);
-    x.insertKey(1);
-    x.insertKey(5);
-    x.insertKey(6);
-    x.insertKey(4);
-    x.insertKey(3);
-    x.insertKey(0);
-    x.insertKey(8);
-    x.insertKey(2);
-    x.showArr();
-    x.extractMin();
-    x.showArr();
-    x.extractMin();
-    x.showArr();
+    MinHeap h(5);
+    h.insert(110);
+    h.insert(50);
+    h.insert(20);
+    h.insert(1);
+    h.insert(25);
+    h.showHeap();
 }
