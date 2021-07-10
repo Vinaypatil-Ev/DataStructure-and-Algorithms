@@ -10,8 +10,6 @@ def self_bin_serach(arr, s, e, key):
         s += 1
         e -= 1
     return -1
-    
-
 
 arr = [33, 44, 16, 1, 14, 6, 2, 5, 7, 9, 10]
 x = self_bin_serach(arr, 0, len(arr) - 1, 9)
